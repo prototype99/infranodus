@@ -1819,7 +1819,7 @@ body {
 .pure-button-selected,
 a.pure-button-primary,
 a.pure-button-selected {
-    background-color: C8C6C6;
+    background-color: #C8C6C6;
     color: #030202;
 }
 
@@ -2506,7 +2506,7 @@ Forms Core
 .pure-menu li.pure-menu-selected-top a {
     /* background-color: #ededed!important; */
     color: #40b5ff!important;
-    opacity: 0.!important;
+    opacity: 0!important;
 }
 
 
