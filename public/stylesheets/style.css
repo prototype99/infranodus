@@ -174,17 +174,7 @@ a {
     overflow: scroll;
 }
 
-textarea {
-    font: 16px 'IstokWeb-Bold',sans-serif;
-    position: relative;
-    resize: vertical;
-    width: 92%;
-    max-height: 100%;
-    overflow: auto; /* 1 */
-    vertical-align: top; /* 2 */
-    padding: 0.5em 0.6em;
-    display: block;
-    margin: 0.25em 0;
+textarea,.pure-form select {
     border: 1px solid #e6e6e6;
     box-shadow: inset 0 1px 3px #e6e6e6;
     border-radius: 6px;
@@ -197,6 +187,19 @@ textarea {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
+}
+
+textarea {
+    font: 16px 'IstokWeb-Bold',sans-serif;
+    position: relative;
+    resize: vertical;
+    width: 92%;
+    max-height: 100%;
+    overflow: auto; /* 1 */
+    vertical-align: top; /* 2 */
+    padding: 0.5em 0.6em;
+    display: block;
+    margin: 0.25em 0;
     z-index: 10;
 }
 
@@ -668,6 +671,19 @@ a:hover.app-more-link {
 
 }
 
+#analytics,#graphsettings {
+    clear: both;
+    border-radius: 12px;
+    padding: 0 10px 10px 10px;
+    margin-right: 0;
+    z-index: 12;
+    background-color: var(--analytics-pane-background);
+    /* box-shadow: 0px 1px 1px 2px #f3f4f6; */
+    word-wrap: break-word;
+    display:none;
+    box-shadow: 0 5px 40px rgba(0,0,0,.16)!important;
+    -webkit-box-shadow: 0 5px 40px rgba(0,0,0,.16)!important;
+}
 
 #analytics {
     font: 15px 'IstokWeb-Regular',sans-serif;
@@ -681,17 +697,6 @@ a:hover.app-more-link {
     max-height: 85%;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
-    clear: both;
-    border-radius: 12px;
-    padding: 0px 10px 10px 10px;
-    margin-right: 0px;
-    z-index: 12;
-    background-color: var(--analytics-pane-background);
-    /* box-shadow: 0px 1px 1px 2px #f3f4f6; */
-    word-wrap: break-word;
-    display:none;
-    box-shadow: 0 5px 40px rgba(0,0,0,.16)!important;
-    -webkit-box-shadow: 0 5px 40px rgba(0,0,0,.16)!important;
 }
 
 
@@ -890,17 +895,6 @@ button:hover {
     text-align: left;
     right: 50px;
     width: 250px;
-    clear: both;
-    border-radius: 12px;
-    padding: 0px 10px 10px 10px;
-    margin-right: 0px;
-    z-index: 12;
-    background-color: var(--analytics-pane-background);
-    /* box-shadow: 0px 1px 1px 2px #f3f4f6; */
-    word-wrap: break-word;
-    display:none;
-    box-shadow: 0 5px 40px rgba(0,0,0,.16)!important;
-    -webkit-box-shadow: 0 5px 40px rgba(0,0,0,.16)!important;
 }
 
 #filtergraph {
@@ -1517,8 +1511,7 @@ button:hover {
     position: relative!important;
 }
 
-
-.welcomemessage {
+.welcomemessage,.welcometitle {
     position: relative;
     left: 14px;
     bottom: 0;
@@ -1529,6 +1522,9 @@ button:hover {
     padding-top: 5px;
     padding-right: 50px;
     margin-bottom: 20px;
+}
+
+.welcomemessage {
     margin-right: 75px;
     z-index: 1;
     opacity: 0.9;
@@ -1558,16 +1554,6 @@ button:hover {
 }
 
 .welcometitle {
-    position: relative;
-    left: 14px;
-    bottom: 0;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0);
-    max-width: 275px;
-    padding-left: 0px;
-    padding-top: 5px;
-    padding-right: 50px;
-    margin-bottom: 20px;
     z-index: 1;
     opacity: 0.9;
     top: 0;
@@ -2023,18 +2009,6 @@ Forms Core
 .pure-form select {
     padding: 0.36em 0.6em;
     display: inline-block;
-    border: 1px solid #e6e6e6;
-    box-shadow: inset 0 1px 3px #e6e6e6;
-    border-radius: 6px;
-    -webkit-transition: 0.3s linear border;
-    -moz-transition: 0.3s linear border;
-    -ms-transition: 0.3s linear border;
-    -o-transition: 0.3s linear border;
-    transition: 0.3s linear border;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
 }
 
 .pure-form input[type="text"]:focus,
