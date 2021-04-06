@@ -247,7 +247,7 @@ textarea:focus {
     float: left;
     display: inline-block;
     margin-bottom:25px;
-    padding: 0px 10px;
+    padding: 0 10px;
     min-width: 160px;
     min-height: 10px;
     margin-left: 2px;
@@ -412,7 +412,7 @@ a:hover.app-more-link {
 
 
 #addToContextsLabel {
-    margin: 16px 5px -10px 0px;
+    margin: 16px 5px -10px 0;
     float: left;
 }
 
@@ -570,7 +570,7 @@ a:hover.app-more-link {
 
 #content {
     position: relative;
-    top: 0px;
+    top: 0;
 /*
     max-width: 320px;
 */
@@ -582,9 +582,9 @@ a:hover.app-more-link {
 
 #statements {
     position: relative;
-    bottom: 0px;
-    left: 0px;
-    padding-bottom: 0px;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 0;
     height: 100%;
     background-color: rgba(255, 255, 255, 0);
     max-width: 340px;
@@ -612,7 +612,7 @@ a:hover.app-more-link {
 
 ::-webkit-scrollbar {
     width: 6px;
-    height: 0px;
+    height: 0;
     background: transparent;  /* optional: just make scrollbar invisible */
 }
 /* optional: show position indicator in red */
@@ -635,8 +635,8 @@ a:hover.app-more-link {
     position: relative;
     top: 0;
     left: 50px;
-    padding-left: 0px;
-    padding-top: 0px;
+    padding-left: 0;
+    padding-top: 0;
     height: 100%;
     z-index: 5;
     max-width: 340px;
@@ -1067,7 +1067,7 @@ button:hover {
     font-size: 8px; /* change this value to increase/decrease button size */
     width: 2em;
     height: 25px;
-    padding: 0em 0em 0em 31px;
+    padding: 0 0 0 31px;
     z-index: 10;
 }
 
@@ -1084,7 +1084,7 @@ button:hover {
     font-size: 8px; /* change this value to increase/decrease button size */
     width: 2em;
     height: 25px;
-    padding: 0em 1em 0em 1em;
+    padding: 0 1em 0 1em;
     z-index: 10;
 }
 
@@ -1101,7 +1101,7 @@ button:hover {
     font-size: 8px; /* change this value to increase/decrease button size */
     width: 2em;
     height: 25px;
-    padding: 0em 0em 0em 1em;
+    padding: 0 0 0 1em;
     z-index: 10;
 }
 
@@ -1124,7 +1124,7 @@ button:hover {
     font-size: 8px; /* change this value to increase/decrease button size */
     width: 23px;
     height: 23px;
-    padding: 1em 0em 0em 0em;
+    padding: 1em 0 0 0;
     z-index: 10;
     opacity: var(--addnode-opacity);
     background-image: var(--addnode-background);
@@ -1138,7 +1138,7 @@ button:hover {
     font-size: 8px; /* change this value to increase/decrease button size */
     width: 23px;
     height: 23px;
-    padding: 0em 0em 0em 2em;
+    padding: 0 0 0 2em;
     z-index: 10;
     opacity: var(--globalsearch-opacity);
     background-image: var(--globalsearch-background);
@@ -1152,7 +1152,7 @@ button:hover {
     font-size: 8px; /* change this value to increase/decrease button size */
     width: 23px;
     height: 23px;
-    padding: 0em 0em 0em 0em;
+    padding: 0 0 0 0;
     margin-right: -10px;
     z-index: 10;
     /*noinspection CssUnresolvedCustomProperty*/
@@ -1183,7 +1183,7 @@ button:hover {
   right: 0; /* "#menu width" */
   /* width: 2em;
    height: auto;*/
-  padding: 0em 2.5em;
+  padding: 0 2.5em;
   z-index: 11;
   opacity: var(--go-next-opacity); 
   background-image: var(--go-next-background-image);
@@ -1201,7 +1201,7 @@ button:hover {
   /* change this value to increase/decrease button size */
   /* width: 2em;
    height: auto;*/
-  padding: 0em 2.5em;
+  padding: 0 2.5em;
   z-index: 11;
   opacity: var(--reload-button-opacity);
   background-image: var(--reload-button-background-image);
@@ -1215,7 +1215,7 @@ button:hover {
   font-size: 8px; /* change this value to increase/decrease button size */
   width: 23px;
   height: 23px;
-    padding: 0em 0em 1em 0em;
+    padding: 0 0 1em 0;
   z-index: 10;
   opacity: var(--zoom-in-opacity);
   background-image: var(--zoom-in-background-image);
@@ -1230,7 +1230,7 @@ button:hover {
   font-size: 8px; /* change this value to increase/decrease button size */
   width: 23px;
   height: 23px;
-  padding: 1.5em 0em 0em 0em;
+  padding: 1.5em 0 0 0;
   z-index: 10;
   opacity: var(--zoom-out-opacity);
   background-image: var(--zoom-out-background-image);
@@ -1244,7 +1244,7 @@ button:hover {
     font-size: 8px; /* change this value to increase/decrease button size */
     width: 23px;
     height: 23px;
-    padding: 1em 0em 0em 4em;
+    padding: 1em 0 0 4em;
     z-index: 10;
     opacity: 1!important;
     background-image: url('../images/search.png');
@@ -1343,7 +1343,7 @@ button:hover {
 
 #introduction {
     position: relative;
-    margin: 35px 0px 0px 30px;
+    margin: 35px 0 0 30px;
 }
 
 
@@ -1376,7 +1376,7 @@ button:hover {
     height: 290px;
     display: inline-block;
     background-color: white;
-    margin: 20px 20px 10px 0px;
+    margin: 20px 20px 10px 0;
 }
 
 .graphwindow {
@@ -1431,7 +1431,7 @@ button:hover {
 #addcontextinput {
     visibility: hidden;
     z-index:99;
-    margin: -20px 0px 0px 10px !important;
+    margin: -20px 0 0 10px !important;
 
 }
 
@@ -1439,13 +1439,13 @@ button:hover {
   float: right;
   display: inline;
   z-index:99;
-  padding: 0px 10px 0px 20px;
+  padding: 0 10px 0 20px;
   margin: -5px;
 
 }
 #pinnedlist {
   clear: both;
-  padding: 14px 5px 0px 0px;
+  padding: 14px 5px 0 0;
 }
 
 #globalsearchinput {
@@ -1503,7 +1503,7 @@ button:hover {
     height: 100%;
     background-color: rgba(255, 255, 255, 0);
     max-width: 275px;
-    padding-left: 0px;
+    padding-left: 0;
     padding-top: 5px;
     padding-right: 50px;
     margin-bottom: 20px;
@@ -2160,11 +2160,11 @@ Forms Core
 }
 .pure-form .pure-group input:first-child {
     top: 1px;
-    border-radius: 6px 6px 0px 0px;
+    border-radius: 6px 6px 0 0;
 }
 .pure-form .pure-group input:last-child {
     top: -2px;
-    border-radius: 0px 0px 6px 6px;
+    border-radius: 0 0 6px 6px;
 }
 .pure-form .pure-group button {
     margin: 0.35em 0;
@@ -2396,10 +2396,10 @@ Forms Core
     /*color: #C0C1C3; allow .pure-button to color text*/
 }
 .pure-paginator .prev {
-    border-radius: 6px 0px 0px 6px;
+    border-radius: 6px 0 0 6px;
 }
 .pure-paginator .next {
-    border-radius: 0px 6px 6px 0px;
+    border-radius: 0 6px 6px 0;
 }
 /* end from PURE menu-paginator.css ******************************/
 /* from PURE menu.css *******************************************/

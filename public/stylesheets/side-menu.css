@@ -137,10 +137,10 @@
 #layout {
     position: absolute;
     padding-left: 0;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
     height: 100%;
 }
 #layout.active {
@@ -358,7 +358,7 @@ small screens.
     position: absolute;
     display: block;
     top: 40px;
-    right: 0px;
+    right: 0;
 }
 
 #statements-toggle {
@@ -542,8 +542,8 @@ small screens.
     height: 23px;
     width: 23px;
     text-indent:-9999px;
-    line-height: 0px;
-    font-size: 0px;
+    line-height: 0;
+    font-size: 0;
     position: relative;
     top: -5px;
 }
@@ -569,8 +569,8 @@ small screens.
     background: var(--deletecontextbutton-background-image) no-repeat center;
     pointer-events: auto!important;
     text-indent:-9999px;
-    line-height: 0px;
-    font-size: 0px;
+    line-height: 0;
+    font-size: 0;
 }
 
 
@@ -632,7 +632,7 @@ small screens.
     position: absolute;
     display: inline; /* show this only on small screens */
     bottom: 10px;
-    right: 0px; /* "#menu width" */
+    right: 0; /* "#menu width" */
     font-size: 8px; /* change this value to increase/decrease button size */
     width: 2em;
     height: auto;
@@ -646,8 +646,7 @@ small screens.
 #graph-link {
 
 
-    margin-top: 0px;
-    background: none;
+    margin-top: 0;
     position: absolute;
     display: block;
     top: 0;
@@ -658,10 +657,8 @@ small screens.
     padding: 2.6em 2.6em;
     z-index: 11;
     /* background-image: url('../images/chat.png'); */
-    background-image: var(--graph-link-background-image);
     opacity: var(--graph-link-opacity);
-    background-repeat:no-repeat;
-    background-position:center;
+    background: var(--graph-link-background-image) no-repeat center;
 }
 
 
@@ -703,7 +700,7 @@ small screens.
 
 #statementmenu {
     position: fixed;
-    top: 0px;
+    top: 0;
 }
 
 #addcontext-link {
@@ -793,7 +790,7 @@ small screens.
   right: 0; /* "#menu width" */
   /* width: 2em;
    height: auto;*/
-  padding: 0em 2.5em;
+  padding: 0 2.5em;
   z-index: 11;
   background-image: var(--abstract-layout-background-image);
   opacity: var(--abstract-layout-opacity);
@@ -810,7 +807,7 @@ small screens.
     width: 2em;
     height: 25px;
     right: 0; /* "#menu width" */
-    padding: 0em 2.5em;
+    padding: 0 2.5em;
     z-index: 11;
     opacity: var(--walkthrough-button-opacity);
     background: var(--walkthrough-button-background-image) no-repeat center;
@@ -820,14 +817,14 @@ small screens.
   #manualsupport {
     position: absolute;
     top:360px;
-    right: 0px;
-    padding: 0px 0px 0px 0px;
-    margin: 0px;
+    right: 0;
+    padding: 0 0 0 0;
+    margin: 0;
     width: 50px;
     height: 150px;
     background: #288fd4; /* #105bfb; */
     z-index:15;
-    border-radius: 3px 0px 0px 3px;
+    border-radius: 3px 0 0 3px;
     text-decoration:none!important;
     opacity: 1;
   }
@@ -835,7 +832,7 @@ small screens.
   #manualsupport p {
     font-size: 18px; /* change this value to increase/decrease button size */
     color: #fff;
-    padding: 5px 0px 0px 10px;
+    padding: 5px 0 0 10px;
     -moz-transform:rotate(90deg);
     -ms-transform:rotate(90deg);
     -o-transform:rotate(90deg);
@@ -850,7 +847,7 @@ small screens.
     width: 2em;
     height: 25px;
     right: 0; /* "#menu width" */
-    padding: 0em 2.5em;
+    padding: 0 2.5em;
     z-index: 11;
     opacity: var(--adjustsettings-button-opacity);
     background: var(--adjustsettings-button-background-image) no-repeat center;
@@ -863,7 +860,7 @@ small screens.
     width: 2em;
     height: 25px;
     right: 0; /* "#menu width" */
-    padding: 0em 2.5em;
+    padding: 0 2.5em;
     z-index: 11;
       opacity: var(--themeswitch-button-opacity);
       background: var(--themeswitch-button-background-image) no-repeat center;
@@ -914,7 +911,7 @@ small screens.
 
 #graph-reload {
     position: fixed;
-    top: 0px;
+    top: 0;
     text-align: right;
     right: -2px; /* "#menu width" */
     font-size: 8px; /* change this value to increase/decrease button size */
@@ -1046,7 +1043,7 @@ Hides the menu at `48em`, but modify this based on your app's needs.
         width: 2em;
         height: 25px;
         right: 0; /* "#menu width" */
-        padding: 0em 2.5em;
+        padding: 0 2.5em;
         z-index: 11;
         opacity: var(--manual-button-opacity);
         background: var(--manual-button-background-image) no-repeat center;
