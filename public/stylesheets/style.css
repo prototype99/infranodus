@@ -392,7 +392,7 @@ a:hover.app-concept-link {
 a.app-context-link {
     text-decoration: none;
     color: #999;
-    font: 'IstokWeb-Regular',sans-serif;
+    font-family: "IstokWeb-Regular",sans-serif;
 
 }
 a:hover.app-context-link {
