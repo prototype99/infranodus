@@ -454,6 +454,7 @@ small screens.
 }
 
 
+/*noinspection CssUnresolvedCustomProperty*/
 #google-import {
         position: relative;
         
@@ -481,6 +482,7 @@ small screens.
     background-color: #efefef;
 }
 
+/*noinspection CssUnresolvedCustomProperty*/
 #file-import {
         position: relative;
         left: 0; /* "#menu width" */
