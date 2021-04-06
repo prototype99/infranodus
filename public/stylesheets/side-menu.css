@@ -558,7 +558,7 @@ small screens.
     top: 330px;
     left: 5px; /* "#menu width" */
     text-align: left;
-    font-size: 32px; /* change this value to increase/decrease button size */
+    /* change this value to increase/decrease button size */
     width: 32px;
     height: 32px;
     border: 0;
@@ -689,7 +689,7 @@ small screens.
     position: absolute;
     top: 370px;
     left: 0;
-    font-size: 8px; /* change this value to increase/decrease button size */
+    /* change this value to increase/decrease button size */
     width: 32px;
     height: 32px;   
     font-size: 32px; /* change this value to increase/decrease button size */
@@ -775,10 +775,7 @@ small screens.
   width: 2em;
   height: 25px;
   right: 0; /* "#menu width" */
-  font-size: 8px; /* change this value to increase/decrease button size */
-  /* width: 2em;
-   height: auto;*/
-  padding: 0em 2.5em;
+  padding: 0 2.5em;
   z-index: 11;
   opacity: var(--improve-layout-opacity);
   background-image: var(--improve-layout-background-image);
@@ -1064,23 +1061,7 @@ Hides the menu at `48em`, but modify this based on your app's needs.
         background-image: url('../images/manual-blue.png')!important;
     }
 
-
-    #graph-link {
-        margin-top: 0px;
-        background: none;
-        position: absolute;
-        display: block;
-        top: 0;
-        right: 0; /* "#menu width" */
-        font-size: 8px; /* change this value to increase/decrease button size */
-        width: 2em;
-        height: auto;
-        padding: 2.6em 2.6em;
-        z-index: 11;
-        background-image: url('/images/graphnet.png');
-        background-repeat:no-repeat;
-        background-position:center;
-    }
+    
 
     #graph-link:hover {
         background: rgba(0, 0, 0, 0.1) url('../images/graphnet.png') no-repeat center;

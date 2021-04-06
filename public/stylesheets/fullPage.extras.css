@@ -307,7 +307,6 @@ p{
 	background-image: -o-linear-gradient(top, #5bc0de, #2f96b4);
 	background-image: linear-gradient(top, #5bc0de, #2f96b4);
 	background-repeat: repeat-x;
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5bc0de', endColorstr='#2f96b4', GradientType=0);
 	border-color: #2f96b4 #2f96b4 #1f6377;
 	border-color: rgba(0,0,0,.1) rgba(0,0,0,.1) rgba(0,0,0,.25);
 	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
