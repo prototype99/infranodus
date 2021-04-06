@@ -366,17 +366,14 @@ small screens.
     display: inline; /* show this only on small screens */
     top: 0;
     right: 0; /* "#menu width" */
-    background: none;
     font-size: 8px; /* change this value to increase/decrease button size */
     width: 2em;
     height: auto;
     float: right;
     padding: 3.3em 1.6em;
     z-index: 10;
-    background-image: var(--statements-toggle-background-image);
     opacity: var(--statements-toggle-opacity);
-    background-repeat: no-repeat;
-    background-position:center;
+    background: var(--statements-toggle-background-image) no-repeat center;
     pointer-events: auto!important;
 }
 
@@ -388,7 +385,6 @@ small screens.
     display: inline; /* show this only on small screens */
     top: 40px;
     left: 0; /* "#menu width" */
-    background: none;
     text-align: left;
     font-size: 32px; /* change this value to increase/decrease button size */
     width: 32px;
@@ -396,10 +392,8 @@ small screens.
     /* float: right; */
     padding: 5px 5px;
     z-index: 10;
-    background-image: var(--statements-link-background-image);
     opacity: var(--statements-link-opacity);
-    background-repeat:no-repeat;
-    background-position:center;
+    background: var(--statements-link-background-image) no-repeat center;
     pointer-events: auto!important;
 }
 
@@ -409,7 +403,6 @@ small screens.
     display: inline; /* show this only on small screens */
     top: 160px;
     left: 0; /* "#menu width" */
-    background: none;
     text-align: left;
     font-size: 32px; /* change this value to increase/decrease button size */
     width: 32px;
@@ -417,10 +410,8 @@ small screens.
     /* float: right; */
     padding: 5px 5px;
     z-index: 10;
-    background-image: var(--timer-link-background-image);
     opacity: var(--timer-link-opacity);
-    background-repeat:no-repeat;
-    background-position:center;
+    background: var(--timer-link-background-image) no-repeat center;
     pointer-events: auto!important;
 }
 
@@ -435,7 +426,6 @@ small screens.
     display: inline; /* show this only on small screens */
     top: 200px;
     left: 0; /* "#menu width" */
-    background: none;
     text-align: left;
     font-size: 32px; /* change this value to increase/decrease button size */
     width: 32px;
@@ -443,10 +433,8 @@ small screens.
     /* float: right; */
     padding: 5px 5px;
     z-index: 10;
-    background-image: var(--watch-link-background-image);
     opacity: var(--watch-link-opacity);
-    background-repeat:no-repeat;
-    background-position:center;
+    background: var(--watch-link-background-image) no-repeat center;
     pointer-events: auto!important;
 }
 
@@ -471,10 +459,7 @@ small screens.
         
         left: 0; /* "#menu width" */
         text-align: right;
-        padding-top: 7px;
-        padding-bottom: 6px;
-        padding-left: 20px;
-        padding-right: 10px;
+        padding: 7px 10px 6px 20px;
         background-color: #f5f5f5;
         color: #666;
         font: 13px 'IstokWeb-Regular',sans-serif;
@@ -500,10 +485,7 @@ small screens.
         position: relative;
         left: 0; /* "#menu width" */
         text-align: right;
-        padding-top: 7px;
-        padding-bottom: 6px;
-        padding-left: 20px;
-        padding-right: 10px;
+        padding: 7px 10px 6px 20px;
         margin-left: 5px;
         background-color: #f5f5f5;
         color: #666;
@@ -532,17 +514,14 @@ small screens.
     display: inline; /* show this only on small screens */
     top: 0;
     right: 35px; /* "#menu width" */
-    background: none;
     font-size: 8px; /* change this value to increase/decrease button size */
     width: 2em;
     height: auto;
     float: right;
     padding: 3.3em 1.6em;
     z-index: 10;
-    background-image: var(--windowdown-link-background-image);
     opacity: var(--windowdown-link-opacity);
-    background-repeat:no-repeat;
-    background-position:center;
+    background: var(--windowdown-link-background-image) no-repeat center;
     pointer-events: auto!important;
 }
 
@@ -586,11 +565,8 @@ small screens.
     /* float: right; */
     padding: 5px 5px;
     z-index: 10;
-    background: none;
-    background-image: var(--deletecontextbutton-background-image);
     opacity: var(--deletecontextbutton-opacity);
-    background-repeat:no-repeat;
-    background-position:center;
+    background: var(--deletecontextbutton-background-image) no-repeat center;
     pointer-events: auto!important;
     text-indent:-9999px;
     line-height: 0px;
@@ -748,7 +724,6 @@ small screens.
     position: absolute;
     top: 80px;
     left: 0;
-    background: none;
     text-align: left;
     font-size: 32px; /* change this value to increase/decrease button size */
     width: 32px;
@@ -756,9 +731,7 @@ small screens.
     padding: 5px 5px;
     z-index: 10;
     opacity: var(--addcontext-link-opacity);
-    background-image: var(--addcontext-link-background-image);
-    background-repeat:no-repeat;
-    background-position:center;
+    background: var(--addcontext-link-background-image) no-repeat center;
     pointer-events: auto!important;
 
 }
@@ -782,7 +755,6 @@ small screens.
     position: absolute;
     top: 120px;
     left: 0;
-    background: none;
     text-align: left;
     font-size: 32px; /* change this value to increase/decrease button size */
     width: 32px;
@@ -790,9 +762,7 @@ small screens.
     padding: 5px 5px;
     z-index: 10;
     opacity: var(--diffcontext-link-opacity);
-    background-image: var(--diffcontext-link-background-image);
-    background-repeat:no-repeat;
-    background-position:center;
+    background: var(--diffcontext-link-background-image) no-repeat center;
     pointer-events: auto!important;
 
 }
@@ -858,12 +828,9 @@ small screens.
     right: 0; /* "#menu width" */
     padding: 0em 2.5em;
     z-index: 11;
-    background: none;
-    background-image: var(--walkthrough-button-background-image);
     opacity: var(--walkthrough-button-opacity);
-    background-repeat:no-repeat;
-    background-position:center;
-  }
+    background: var(--walkthrough-button-background-image) no-repeat center;
+}
 
 
   #manualsupport {
@@ -901,12 +868,9 @@ small screens.
     right: 0; /* "#menu width" */
     padding: 0em 2.5em;
     z-index: 11;
-    background: none;
-    background-image: var(--adjustsettings-button-background-image);
     opacity: var(--adjustsettings-button-opacity);
-    background-repeat:no-repeat;
-    background-position:center;
-  }
+    background: var(--adjustsettings-button-background-image) no-repeat center;
+}
 
   #themeswitch {
     position: absolute;
@@ -917,11 +881,8 @@ small screens.
     right: 0; /* "#menu width" */
     padding: 0em 2.5em;
     z-index: 11;
-    background: none;
-    background-image: var(--themeswitch-button-background-image);
-    opacity: var(--themeswitch-button-opacity);
-    background-repeat:no-repeat;
-    background-position:center;
+      opacity: var(--themeswitch-button-opacity);
+      background: var(--themeswitch-button-background-image) no-repeat center;
   }
   
 
@@ -1103,11 +1064,8 @@ Hides the menu at `48em`, but modify this based on your app's needs.
         right: 0; /* "#menu width" */
         padding: 0em 2.5em;
         z-index: 11;
-        background: none;
-        background-image: var(--manual-button-background-image);
         opacity: var(--manual-button-opacity);
-        background-repeat:no-repeat;
-        background-position:center;
+        background: var(--manual-button-background-image) no-repeat center;
     }
 
     #manualsupport p {
