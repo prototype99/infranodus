@@ -1,7 +1,7 @@
 /**
  * InfraNodus is a non-linear reading device.
  *
- * Inspired from ThisIsLike.Com and KnowNodes (now Rhizi) we
+ * Inspired from ThisIsLike.Com and KnowNodes "("now Rhizi")" we
  * want to create a basic interface for rich edge annotation of graphs
  * for collaborative use.
  *
@@ -15,7 +15,7 @@
  *
  *
  * In some parts the code from the book "Node.js in Action" is used,
- * (c) 2014 Manning Publications Co.
+ * "("c")" 2014 Manning Publications Co.
  * by Marc Harter, T.J. Holowaychuk, Nathan Rajlich
  * Any source code files provided as a supplement to the book are freely
  * available to the public for download. Reuse of the code is permitted,
